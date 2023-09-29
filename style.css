@@ -1,0 +1,95 @@
+body{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+}
+.vizag-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(images/vizag.jpg), lightgray -2.446px -5.91px / 101.181% 136.247% no-repeat;
+    height: 400px;
+    background-size: cover;
+    border-top: 6px solid green;
+}
+
+#city {
+  
+padding :10px;
+border: 3px solid skyblue;
+border-radius: 3px;;    
+color: white;
+text-shadow: 0 0 15px black;
+background: rgba(29, 53, 87, 0.51);
+font-family: 'Black Ops One', cursive;
+
+}
+    
+.section-2
+{
+    
+    padding: 20px;
+    background: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    border-top: 6px solid green;
+   
+}
+#places-text
+{
+    padding-top: 30px;
+    margin: 0px;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    font-size: 30px;
+   
+}
+.section2-img{
+  
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+ul {
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none; 
+    padding-left: 0;
+    
+  }
+  .places{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+  }
+  .section-3{
+    padding: 50px;
+    background-color: #f1e3e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 6px solid green;
+    
+  }
+  .guide-card{
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    padding: 25px;
+    background-color:#fae1dd;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  }
+  #guide-img{
+    padding-right: 10px;
+    width: 180px;
+    height: 248.667px;
+    border-radius: 20px;
+  }
